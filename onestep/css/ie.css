@@ -1,0 +1,64 @@
+/* IE7 and IE8 border-radius */
+.btl {
+	background: url(../images/top-left-radius.png) no-repeat;
+}
+
+.btr {
+	background: url(../images/top-right-radius.png) no-repeat;
+}
+
+.bbr {
+	background: url(../images/bott-right-radius.png) no-repeat;
+}
+
+.bbl {
+	background: url(../images/bott-left-radius.png) no-repeat;
+}
+
+.btl, .btr, .bbr, .bbl {
+	height: 21px;
+	position: absolute;
+	width: 20px;
+}
+
+.btl, .btr, .itl, .itr {
+	top: 0;
+}
+
+.bbr, .bbl, .ibr, .ibl {
+	bottom: 0;
+}
+
+.btl, .bbl {
+	left: -1px;
+}
+
+.btr, .bbr, .itr, .ibr  {
+	right: -1px;
+}
+
+.itl {
+	background: url(../images/inner-top-left-radius.png) no-repeat;
+}
+
+.itr {
+	background: url(../images/inner-top-right-radius.png) no-repeat;
+}
+
+.ibr {
+	background: url(../images/inner-bott-right-radius.png) no-repeat;
+}
+
+.ibl {
+	background: url(../images/inner-bott-left-radius.png) no-repeat;
+}
+
+.itl, .itr, .ibr, .ibl {
+	height: 18px;
+	position: absolute;
+	width: 14px;
+}
+
+.itl, .ibl {
+	left: 0;
+}

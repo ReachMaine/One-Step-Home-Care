@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* #######################  GENERAL SETTINGS ############################ */
+html.body {
+	margin-top: 0px;
+}
+
+body {
+	color: #233368;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0px;
+	font-size: 12px;
+	background-color: #ccc;
+}
+
+/*  Global Formatting */
+h1 {font-size:16px;line-height: 1.2em;font-weight: 900;}
+h2 {font-size:15px;line-height: 1.2em;font-weight: 900;}
+
+h3 {
+	font-size: 14px;
+	line-height: 1.3em;
+	font-weight: 900;
+}
+h4 {font-size:13px;line-height: 1em;font-weight: 900;}
+h5 {font-size:12px;line-height: 1em;font-weight: 900;}
+h6 {font-size:11px;line-height: 1em;font-weight: 900;}
+
+td{font-size: 12px;}
+th{font-size: 12px;}
+
+a {
+	color: #CC6600;
+	text-decoration: none;
+}
+
+a:hover {color: #659FDE;}
+
+a:visited {color: #CC6600;}
+
+a.image, a.image:hover, img a, a img  {border:0;}
+
+
+/* Clears Divs */
+.clr {clear: both;}
+
+/* BEGIN LAYOUT */
+#OSsiteWrap {
+	background: #faf3e6;
+	padding: 0 0 66px;
+	position: relative;
+	width: 1010px;
+}
+
+#OStopBlue {
+	background: #4e72b0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: right;
+}
+
+	/* BEGIN BLUE MENU */
+	#OStopBlue ul.menu {
+	}
+	
+	#OStopBlue ul.menu li {
+		display: inline;
+		padding: 0 9px 0 13px;
+	}
+
+	#OStopBlue ul.menu li a {
+		color: #faf3e6;
+	}
+
+#OSlogoWrap {
+	height: 202px;
+	position: relative;
+}
+
+#OSlogo {
+	left: 32px;
+	position: absolute;
+	top: 10px;
+}
+
+#OScatchPhrase {
+	float: right;
+	padding: 20px 18px 0 0;
+	text-align: right;
+}
+
+	#OScatchPhrase p {
+		color: #4e72b0;
+		font-size: 11px;
+		padding: 20px 0 0;
+	}
+	
+	#OScatchPhrase img {
+		padding: 20px 114px 0 0;
+	}
+
+#OSphoneCall {
+	height: 41px;
+	padding: 0 23px 0 0;
+	text-align: right;
+}
+
+	.phonecall {
+		color: #fff;
+		float: right;
+		font-size: 24px;
+		line-height: 41px;
+	}
+	
+	#OSphoneCall .custom p img {
+		padding: 2px 5px 0 0;
+	}
+
+#OScontentRed {
+	background: #d57a80
+}
+
+#OSleftModule {
+	float: left;
+	padding: 0 12px;
+	width: 171px;
+}
+
+	/* BEGIN LEFT MENU */
+	#OSleftModule ul.menu {
+		list-style-type: none;
+		padding-bottom: 10px;
+	}
+	
+	#OSleftModule ul.menu li {
+		background: url(../images/heart.png) no-repeat;
+		background-position: 0 6px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 20px;
+	}
+	
+	#OSleftModule ul.menu li a {
+		color: #faf3e6;
+		padding: 0 0 0 25px;
+	}
+	
+	/* BEGIN LEFT RANDOM-BANNER */
+	#OSleftModule .random-image, #OSleftModule .banneritem {
+		margin: 76px 0 0;
+	}
+
+#OScontentWrap {
+	margin: 0 0 0 195px;
+}
+
+#OScontentWrap, #OScontentWrap .random-image img {
+	background: #faf3e6;
+	border-radius: 20px 0 0 20px;
+}
+
+#OScontentArea {
+}
+
+	/* BEGIN JOOMLA CONTENT */
+	#OScontentArea .item-page, #OScontentArea .blog, #OScontentArea .blog-boxwidth, #OScontentArea .item-page-boxwidth {
+		font-family: Verdana, Geneva, sans-serif;
+		padding: 31px 19px;
+	}
+	
+	#OScontentArea h1, #OScontentArea h2 {
+		font-family: "Nueva Std", "Times New Roman", Times, serif;
+		font-weight: bold;
+	}
+	
+	#OScontentArea h1 {
+		font-size: 36px;
+		padding: 0 40px;
+	}
+	
+	#OScontentArea h2 {
+		font-size: 30px;
+		padding: 10px 10px 0 0;
+	}
+	
+	#OScontentArea a, #OScontentArea a:hover, #OScontentArea a:visited {
+		color: #233368;
+	}
+	
+	#OScontentArea .item-page p, #OScontentArea .blog p, #OScontentArea .item-page-boxwidth p {
+		padding: 13px 0;
+	}
+	
+	#OScontentArea ul {
+		list-style-position: inside;
+	}
+	
+	#OScontentArea ul li {
+		line-height: 1.5em;
+	}
+	
+	#OScontentArea .blog-boxwidth, #OScontentArea .item-page-boxwidth {
+		width: 509px;
+	}
+	
+	#OScontentArea .blog img, #OScontentArea .blog-boxwidth img, #OScontentArea .item-page-boxwidth img {
+		border-radius: 20px;
+		padding: 0 5px 5px;
+	}
+	
+	#OScontentArea .blog .item-separator, #OScontentArea .blog-boxwidth .item-separator {
+		padding: 5px 0;
+	}
+	
+	/* BEGIN RSS FORM */
+	.formField {
+		line-height: 2em;
+	}
+	
+	.formField label {
+		padding: 0 0 0 5px;
+	}
+
+#OSrightModule { 
+	background: #d57a80;
+	border-radius: 20px 0 0 20px;
+	float: right;
+	margin: 16px 0;
+	width: 287px;
+}
+
+	/* BEGIN RIGHT MODULE CSS */
+	.OSright-header {
+		background: #faf3e6;
+		border-radius: 0 20px 20px 0;
+		margin: 21px 34px 26px 0;
+		overflow: hidden;
+	}
+	
+	.OSright-header h3 {
+		font-size: 24px;
+		font-weight: normal;
+		text-align: center;
+	}
+	
+	.OSright-body {
+		color: #faf3e6;
+		font-size: 24px;
+		font-style: italic;
+		padding: 0 16px 56px;
+		text-align: center;
+	}
+
+#OSfooterWrap, #OSphoneCall {
+	background: #d57a80;
+	border-radius: 0 20px 20px 0;
+	margin-right: 77px;
+}
+
+	/* BEGIN FOOTER */
+	#OSfooterText {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 24px;
+		margin: 0 0 0 193px;
+		padding: 10px 0;
+		text-align: center;
+	}
+	
+	.floatleft {
+		float: left;
+		margin: 4px 0 0 30px;
+	}
+
+	.floatright {
+		float: right;
+		margin: 4px 30px 0 0;
+	}
+	
+	.floatleft, .floatright {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 15px;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+
+#OSpageCurl {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+
+#OSphoneCall, #OScontentWrap, #OSrightModule, #OSfooterWrap, .OSright-header {
+	position: relative;
+}

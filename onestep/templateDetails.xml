@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<extension version="1.6" type="template">
+	<name>OneStep</name>
+	<creationDate>12/1/2011</creationDate>
+	<author>Mike Oles</author>
+	<authorEmail>mike@fenceviewer.com</authorEmail>
+	<authorUrl>http://www.fenceviewer.net</authorUrl>
+	<copyright>© copyright 2011</copyright>
+	<license>Commercial</license>
+	<version>1.0.0</version>
+	<description>TPL_ONESTEP_XML_DESCRIPTION</description>
+
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/pagination.php</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/bl_grey.gif</filename>
+		<filename>images/br_grey.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/mw_readon.png</filename>
+		<filename>images/mw_readon_rtl.png</filename>
+		<filename>images/spacer.png</filename>
+		<filename>images/tl_grey.gif</filename>
+		<filename>images/tr_grey.gif</filename>
+	</files>
+
+	<positions>
+		<position>OScatchPhrase</position>
+		<position>OSfooter</position>
+		<position>OSleft</position>
+		<position>OSphoneCall</position>
+		<position>OSrandom</position>
+		<position>OSright</position>
+		<position>OStop</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_onestep.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_onestep.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field 
+					name="randomtext" 
+					type="list"
+					label="TPL_ONESTEP_FIELD_RANDOMTEXT_LABEL"
+					description="TPL_ONESTEP_FIELD_RANDOMTEXT_DESC"
+				>
+					<option value="0">TPL_ONESTEP_OPTION_CONTENT</option>
+					<option value="1">TPL_ONESTEP_OPTION_RANDOM</option>
+					<option value="2">TPL_ONESTEP_OPTION_BOTH</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
