@@ -17,12 +17,49 @@ Version: 1.2
 
 }
 /*  header stuff - here */
+// the above content widget area {
+#reach-above-content-wrap {
+	background-color: $top-content-bkg;
+
+	#reach-above-content {
+		padding-top: 10px;
+		//padding-bottom: 10px;
+		.widget {
+			margin-bottom: 10px;
+		}
+		.widget.widget_nav_menu {
+			ul { // ul
+				//display: flex;
+				//justify-content: space-around;
+				text-align: right;
+				li:before {
+					content: none;
+				}
+				li {
+					//display: inline-flex;
+					display: inline-block;
+					margin-bottom: 0px;
+					a {
+						color: $top-content-font;
+					}
+				}
+			} // ul
+		} // .widget.widget_nav_menu
+	} //#reach-above-content
+} // #reach-above-content-wrap
+
 
 /*** styling of content */
 /*** styling of content */
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
+}
+
+.oshc-testimonial-box {
+	.tatsu-column-inner {
+		border-radius: 10px;
+	}
 }
 /** sidebar
 

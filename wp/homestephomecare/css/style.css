@@ -59,11 +59,30 @@ input[type="submit"] {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#reach-above-content-wrap {
+  background-color: #4e72b0; }
+  #reach-above-content-wrap #reach-above-content {
+    padding-top: 10px; }
+    #reach-above-content-wrap #reach-above-content .widget {
+      margin-bottom: 10px; }
+    #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu ul {
+      text-align: right; }
+      #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu ul li:before {
+        content: none; }
+      #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu ul li {
+        display: inline-block;
+        margin-bottom: 0px; }
+        #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu ul li a {
+          color: #faf3e6; }
+
 /*** styling of content */
 /*** styling of content */
 #content.right-sidebar-page {
   padding-top: 45px;
   padding-bottom: 45px; }
+
+.oshc-testimonial-box .tatsu-column-inner {
+  border-radius: 10px; }
 
 /** sidebar
 
