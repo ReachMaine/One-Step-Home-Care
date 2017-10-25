@@ -88,8 +88,9 @@ input[type="submit"] {
 
 /** footer **/
 #reach-bottom-cta {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  background-color: rgba(78, 114, 176, 0.22); }
+  #reach-bottom-cta .widget {
+    margin-bottom: 0px; }
 
 #footer a.reach-logo {
   color: white; }
