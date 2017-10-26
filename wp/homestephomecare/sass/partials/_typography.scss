@@ -13,4 +13,7 @@ i.fa-pull-right {
 p:empty { // hide any empty p tags (sometimes from images with captions)
     display: none;
 }
+.page-title-module-custom .page-title-custom h1 {
+	margin-bottom: 0px;
+}
 /* ----------- end typography ----------- */

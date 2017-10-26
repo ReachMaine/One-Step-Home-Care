@@ -2,6 +2,7 @@
 .wpcf7-form {
    textarea {
       height: 200px;
+      background-color: white;
     }
     input[type="text"],
     input[type="password"],
@@ -32,4 +33,5 @@
 	color: $cf7-success-color;
 	background-color: $cf7-success-background;
 	font-weight: bold;
+  border-radius: 5px;
 }
