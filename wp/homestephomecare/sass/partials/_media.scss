@@ -26,12 +26,30 @@
   }
 
 }
+@media only screen and (min-width: 768px) {
+  .oshc-desktop-inline {
+    display: inline;
+  }
+
+}
+
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
 	// hide-mobile available from tatsu
 
+    #reach-above-content-wrap #reach-above-content.be-wrap {
+      max-width: 100%;
+      padding-right: 10px;
+      .widget.widget_nav_menu ul {
+        text-align: center;
+        li:first-child {
+          padding-left: 10px;
+        }
+      }
+    }
     #hero-section .hero-section-wrap.be-bg-cover{
       height: 300px!important;
     }
+
 
     #content.right-sidebar-page {
       padding-top: 20px;
@@ -46,6 +64,10 @@
       #right-sidebar, #left-sidebar  {
         margin-top: 0px;
         margin-bottom: 0px;
+      }
+      .oshc-center-mobile,
+      .oshc-center-mobile .tatsu-module.align-right{
+        text-align: center;
       }
 }
 

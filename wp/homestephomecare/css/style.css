@@ -20,6 +20,9 @@ i.fa-pull-right {
 p:empty {
   display: none; }
 
+.page-title-module-custom .page-title-custom h1 {
+  margin-bottom: 0px; }
+
 /* ----------- end typography ----------- */
 /* standard Reach styling of Oshin */
 .title-module-wrap.page-title-module-custom {
@@ -57,6 +60,38 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer; }
 
+.wpcf7-form textarea {
+  height: 200px;
+  background-color: white; }
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="password"],
+.wpcf7-form input[type="datetime"],
+.wpcf7-form input[type="datetime-local"],
+.wpcf7-form input[type="date"],
+.wpcf7-form input[type="month"],
+.wpcf7-form input[type="time"],
+.wpcf7-form input[type="week"],
+.wpcf7-form input[type="number"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="url"],
+.wpcf7-form input[type="search"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="color"] {
+  max-width: 100%; }
+.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+  padding: 18px;
+  border: 0px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+  color: #000;
+  background-color: #51af6b;
+  font-weight: bold;
+  border-radius: 5px; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 #reach-above-content-wrap {
@@ -78,8 +113,8 @@ input[type="submit"] {
 /*** styling of content */
 /*** styling of content */
 #content.right-sidebar-page {
-  padding-top: 45px;
-  padding-bottom: 45px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .oshc-testimonial-box .tatsu-column-inner {
   border-radius: 10px; }
@@ -91,9 +126,13 @@ input[type="submit"] {
 
 /** footer **/
 #reach-bottom-cta {
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: rgba(78, 114, 176, 0.22); }
   #reach-bottom-cta .widget {
     margin-bottom: 0px; }
+    #reach-bottom-cta .widget .tatsu-column {
+      margin-bottom: 0px; }
 
 #footer a.reach-logo {
   color: white; }
@@ -106,7 +145,18 @@ input[type="submit"] {
 @media only screen and (max-width: 960px) {
   #header #header-controls-right .mobile-nav-controller {
     padding-top: 15px; } }
+@media only screen and (min-width: 768px) {
+  .oshc-desktop-inline {
+    display: inline; } }
 @media only screen and (max-width: 767px) {
+  #reach-above-content-wrap #reach-above-content.be-wrap {
+    max-width: 100%;
+    padding-right: 10px; }
+    #reach-above-content-wrap #reach-above-content.be-wrap .widget.widget_nav_menu ul {
+      text-align: center; }
+      #reach-above-content-wrap #reach-above-content.be-wrap .widget.widget_nav_menu ul li:first-child {
+        padding-left: 10px; }
+
   #hero-section .hero-section-wrap.be-bg-cover {
     height: 300px !important; }
 
@@ -119,4 +169,8 @@ input[type="submit"] {
 
   #right-sidebar, #left-sidebar {
     margin-top: 0px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+
+  .oshc-center-mobile,
+  .oshc-center-mobile .tatsu-module.align-right {
+    text-align: center; } }
